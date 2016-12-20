@@ -1,5 +1,5 @@
 jCollam Argument Map visualization
 ==================================
 
-[test](../wiki/ProjectHome.md)
+[Project Home](../wiki/ProjectHome.md)
 
