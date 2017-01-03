@@ -55,7 +55,7 @@ jSplitTree.prototype.genItems= function(tree,backwards,parentOffset,isMeta,paren
 			arrowText=$("<div></div>").addClass('ViSpi_arrowText');
 			arrowText.click(function() { props.arrow.onClick(this); } );
 			arrowText.css({
-				'margin-top': !backwards&&(props.arrow.mode&1)&&i==0?10:0, 
+				'margin-top': !backwards&&(props.arrow.mode&1)&&i==0?20:0,
 				'margin-left': connOffset-8,
 				'background-color': props.arrow.color
 			}).html(props.arrow.text);
