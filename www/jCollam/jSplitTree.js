@@ -88,9 +88,9 @@ jSplitTree.prototype.drawConns = function(container)
 	for(c in this.conns) {
 		var co = this.conns[c];
 		var sOffset=co.s.offset(), dOffset=co.d.offset();
-		var h=co.d.height()+8;
+		var h=co.s.height()+8;
 		var backwards=co.s!=null && sOffset.top>dOffset.top;
-		var hOffset = co.isMeta ? jSplitTree.lineWidth/2 : (backwards ? -h/2 : h/2);
+	        var hOffset = co.isMeta ? jSplitTree.lineWidth/2 : (backwards ? -h/2 : h/2);
 		lf.drawCurvedLine(
 			[dOffset.left,dOffset.top+h/2],
 			[[-co.w,0],[0,sOffset.top-dOffset.top+hOffset]],
